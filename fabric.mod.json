@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "botmod",
+  "version": "${version}",
+  "name": "BotMod",
+  "description": "Dodaje boty – sztucznych graczy sterowanych komendami /bot i panelem pod klawiszem B.",
+  "authors": ["BotMod"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["pl.botmod.BotMod"],
+    "client": ["pl.botmod.client.BotModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
